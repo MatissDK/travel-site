@@ -461,6 +461,7 @@ img {
 
 .large-hero {
     position: relative;
+
 }
 
 /*& is for root selectpr*/
@@ -490,9 +491,14 @@ img {
     }
 
 .large-hero__description {
-        color: #FFF;
-        font-size: 1.5rem;
-      }
+     color: #FFF;
+     font-size: 1.875rem;
+     font-weight: 100;
+     text-shadow: 2px 2px 0 rgba(0,0,0,.1);
+     max-width: 30rem;
+     margin-left: auto;
+     margin-right: auto;
+ }
 
 
 
